@@ -1,0 +1,454 @@
+/*TABLE OF CONTENT*/
+/*----------------
+1.Navbar
+2.Banner
+3.gallery
+4.footer
+
+
+------------------*/
+
+/* 1 General */
+
+/* 1 General */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*for h2*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Open+Sans:wght@300&display=swap');
+/*for h1*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    /* Background Color */
+    --bg-red: #d3282e;
+    --bg-white: #fff;
+    --bg-light-white: #f6f7f8;
+    --bg-yellow: #fdd800;
+    --bg-green: #009900;
+
+    /* Text Color */
+    --text-black: #1f1f1f;
+    --text-white: #fff;
+    --text-red: #d3282e;
+    --text-green: #009900;
+    --text-yellow: #fdd800;
+
+    /* Fonts */
+    --primary-font: 'Great Vibes', cursive;
+    --secondary-font: 'Poppins', sans-serif;
+}
+
+
+
+h2{
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+/*index section start*/
+
+
+/*navbar-start*/
+
+.header .navbar{
+    background: #1239c83b;
+}
+.header .navbar-brand img{
+    height:64px;
+}
+.header .nav-item{
+    margin: 2px 10px;
+}
+.header .nav-item .nav-link{
+    font-size:15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.header .nav-item .nav-link.active{
+    color:#f76e11;
+}
+.button{
+    color: #111516;
+    /*border: 1px solid;*/
+    border-radius: 3px;
+}
+.button:hover{
+    background: black;
+    color: #fff;
+}
+
+/*navbar-end*/
+
+.slider-img{
+    height:476px;
+}
+.carousel-indicators [data-bs-target]{
+    width:14px;
+    height:14px;
+    border-radius: 50%;
+    background-color:var(--bg-yellow) !important;
+}
+.carousel-caption h1{
+    font-size: 60px;
+    position: relative;
+    bottom: 106px;
+    text-transform: uppercase;
+    font-family: 'Libre Bodoni', serif;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    color: #F76E11;
+}
+
+
+
+
+/*gallery-start*/
+
+.rooms-headline{
+    padding: 4px;
+    margin: 10px auto 32px;
+    width: 90%;
+    color:#121111c4;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    background: linear-gradient(to right top,rgb(179 18 131 / 5%),rgb(100 0 90 / 42%));
+}
+
+.gallery-images{
+    margin: 0px auto 60px auto;
+    padding: 66px 34px;
+    height: 374px;
+}
+.gallery-images img{
+    width: 100%;
+    height: 139%;
+}
+
+/*.gallery-text-box{
+    height: 65px;
+    background: #fff;
+    border: 2px solid;
+    font-family: 'Montserrat';
+    position: relative;
+}*/
+
+/*.gallery-text-box h3{
+    line-height: 22px; 
+    color: #180A0A;
+    padding-top: 9px;
+    font-weight: bold;
+    font-size: 20px;
+}*/
+
+/*.gallery-text-box h5{
+    color: #570A57;
+    font-weight: bold;
+    font-size: 1em;
+}*/
+
+/*gallery-end*/
+
+/*index section end*/
+
+
+
+/*services section end*/
+
+.section .heading-1{
+    margin-top: 100px;
+    color:#121111c4;
+    letter-spacing: 1px;
+    word-spacing: 16px;
+    background: linear-gradient(to right top,rgb(179 18 131 / 5%),rgb(100 0 90 / 42%));    
+}
+.icons-container{
+    margin-top: 105px;
+    background: #dcdcdc47;
+}
+.section .icon i{
+    font-size: 61px;
+}
+.fa-temperature-arrow-down{
+    position: relative;
+    bottom: 16px;
+    margin: 11px auto 41px;
+    color: #0AA1DD;
+}
+/*.ac-text{
+    margin-top: 29px;
+    margin-left: 0px;
+}*/
+.fa-ferry{
+    bottom: 20px;
+    position: relative;
+    color: #FF8D29;
+}
+.fa-tv{
+    margin-top: 67px;
+    color: #7F8487;
+}
+.fa-glass-water-droplet{
+    margin-bottom: 40px;
+    margin-top: 39px;
+    color: #205375;
+}
+.WM-h4{
+    font-size: 22px;
+}
+.section .discription{
+    /*border: 2px solid;*/
+    display: inline-block;
+    position: relative;
+    bottom: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner .slider-container{
+    padding: 2px;
+    width: 37%;
+    margin-top: 100px;
+}
+.banner .services-img{
+    width: 100%;
+    height: 200px;
+}
+.slider-discription{
+    margin-bottom: 90px;
+    /*border: 2px solid;*/
+    width: 37%;
+}
+.slider-text p{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 22px;
+   font-family: 'Montserrat';
+    color:#827397;
+}
+
+/*services section end*/
+
+
+
+/*career section start*/
+
+.career-headline{
+    padding: 4px;
+    margin: 58px auto 0;
+    width: 90%;
+    color:#121111c4;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    background: linear-gradient(to right top,rgb(179 18 131 / 5%),rgb(100 0 90 / 42%));
+}
+.career-job-options{
+    margin-left: 188px!important;
+    margin-top: 33px!important;
+}
+.career-job-options ol li{
+    margin-left: 28px;
+    color: #808080cf;
+    padding: 4px 0px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: var(--secondary-font);
+}
+.career-job-options h3{
+    margin-top: 18px;
+    color: #796767;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform:capitalize;
+    font-family: var(--secondary-font);
+    font-size: 30px;
+}
+.career-job-form{
+    height: 415px;
+    margin-bottom: 128px;
+    width: 57%;
+}
+.career-job-form h3{
+    margin-top: 20px;
+    color: #796767;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform:uppercase;
+    font-family: var(--secondary-font);
+    font-size: 28px;
+}
+.career-form  input:focus,
+.career-form textarea:focus,
+.career-form  button
+{
+    outline:none;
+    box-shadow: none;
+}
+
+/*career section end*/
+
+
+
+/*about section start*/
+
+.about-section-1-row{
+    padding: 69px 115px 47px;
+    /*border: 2px solid;*/
+}
+
+.about-us-text h2{
+    margin-right: 382px;
+    font-family: 'Libre Bodoni',serif;
+    color: #FEB139;
+    text-transform: uppercase;
+}
+.about-us-text span{
+    margin-right: 377px;
+    /*border: 2px solid;*/
+}
+.about-us-text p{
+    width: 87%;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #676161;
+    font-family:var(--secondary-font);
+    text-align: justify;
+    /*border: 2px solid;*/
+}
+.section-2-container{
+    width: 60%;
+    background: #FEFBF3;
+}
+.about-scroller{
+    height: 289px;
+    overflow-y: scroll;
+}
+.about-scroller-text h2{
+    font-family: 'Libre Bodoni', serif;
+    color: #FEB139;
+    letter-spacing: 3px;
+    /*color: #06113cb8;*/
+    font-size: 40px; 
+}
+.about-scroller-text p{
+    text-align: justify;
+    font-size: 16px;
+    padding: 0px 23px;
+    font-family:var(--secondary-font);
+    color: grey;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+/*about section end*/
+
+
+
+/*contact section start*/
+
+.contact-headline{
+    text-transform: uppercase;
+    margin: 55px auto 27px;
+    width: 90%;
+    color:#121111c4;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    background: linear-gradient(to right top,rgb(179 18 131 / 5%),rgb(100 0 90 / 42%));
+}
+.contact-info h3{
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    color: #4b7c89d6;
+    padding: 25px 0px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+}
+.contact-form{
+    margin-left: 100px;
+}
+.contact-details{
+    padding: 0px 91px;
+}
+.contact-btn{
+    letter-spacing: 1px;
+    font-family: var(--secondary-font);
+    opacity: 0.55;
+    font-size: 20px;
+    width: 110px;
+}
+.contact-form  input:focus,
+.contact-form  button
+{   
+    outline:none;
+    box-shadow: none;
+}
+.contact-title-box p{
+    font-size: 19px;
+    color: grey;
+    line-height: 26px;
+    font-family: var(--secondary-font);
+}
+.enquiry-agent{
+    margin-top: 30px;
+    width: 24%;
+    margin-left: 259px;
+}
+.enquiry-agent-img{
+    width: 93%;
+    height: 200px;
+}
+.agent-contact-info{
+    margin-top: 38px;
+    /*border: 2px solid;*/
+}
+.agent-contact-info-text{
+    margin: 0 auto 104px;
+    line-height: 1.5;
+    /*border: 2px solid;*/
+    letter-spacing: 1px;
+}
+.agent-contact-info-text h5{
+   font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #f07400;
+    letter-spacing: 2px;
+}
+.agent-contact-info-text p{
+    color:#f07400;
+    letter-spacing: 1px;
+    font-family: var(--secondary-font);
+}
+
+/*contact section end*/
+
+
+
+/*footer section start*/
+
+.footer{
+   width:100%;
+   height: auto
+}
+.footer-text{
+    margin: 16px auto 16px auto;
+}
+.footer p{
+    color: #fff;
+    margin-top: 16px;
+    line-height: 1;
+    font-family: var(--secondary-font );
+    letter-spacing: 0px;
+    font-size: 12px;
+    word-spacing: 2px;
+}
+
+/*footer section end*/
